@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsCart } from "react-icons/bs";
 import { useSelector } from 'react-redux';
-import logo from '../images&logo/Ecommerce_Logo-removebg-preview.png';
-import userIcon from '../images&logo/user_17033027.png';
+import logo from "/imagesLogo/Ecommerce_Logo-removebg-preview.png"
+import userIcon from '/imagesLogo/user_17033027.png';
 
 function NavBar() {
   const quantity = useSelector(store => store.cartSlice.cartQuantity);

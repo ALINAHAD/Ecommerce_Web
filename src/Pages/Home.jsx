@@ -131,7 +131,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
     </header>
     
   
-  <img src="src/images&logo/Ecomme img1.jpg" className='first-img'></img>
+  <img src="imagesLogo/Ecomme img1.jpg" className='first-img'></img>
    
    
    <div className='product_wrapper'>
@@ -175,7 +175,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
         <div className="col-12 mb-3 col-md-4">
           <div className="services-container shadow text-center">
             <img
-              src="src\images&logo\fast-delivery-design-vector-illustration_635054-429.jpg"
+              src="imagesLogo/fast-delivery-design-vector-illustration_635054-429.jpg"
               className="services-img"
               alt="Fast Delivery"
             />
@@ -189,7 +189,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
         <div className="col-12 mb-3 col-md-4">
           <div className="services-container shadow text-center">
             <img
-              src="src\images&logo\MoneyBackEcoomm-Photoroom.png"
+              src="imagesLogo/MoneyBackEcoomm-Photoroom.png"
               className="services-img"
               alt="Money Back Guarantee"
             />
@@ -203,7 +203,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
         <div className="col-12 col-md-4">
           <div className="services-container shadow text-center">
             <img
-              src="src\images&logo\online support.jpg"
+              src="imagesLogo/online support.jpg"
               className="services-img"
               alt="Online Support"
             />
@@ -224,7 +224,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
       <div className="row">
         <div className="col-12 col-md-3 order-1 order-md-2">
           <img
-            src="src\images&logo\specia offer-Photoroom-Photoroom.png"
+            src="imagesLogo/specia offer-Photoroom-Photoroom.png"
             className="offer-img"
             alt="Special Offer"
           />
@@ -232,7 +232,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
 
         <div className="col-12 col-md-5 order-2 order-md-3">
           <img
-            src="src\images&logo\home appliances-Photoroom.png"
+            src="imagesLogo/home appliances-Photoroom.png"
             className="offer-product-img"
             alt="Appliance Offer"
           />
@@ -265,7 +265,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
             <div className="col-12 col-md-6">
               <div className="blog-card shadow mt-3 mb-3">
                 <img
-                  src="src\images&logo\fountain pen.jpg"
+                  src="imagesLogo/fountain pen.jpg"
                   alt="Fountain Pen Blog"
                   className="blog-img"
                 />
@@ -301,7 +301,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
             <div className="col-12 col-md-6">
               <div className="blog-card shadow mb-3 mt-3">
                 <img
-                  src="src\images&logo\TodoListBlog.jpg"
+                  src="imagesLogo/TodoListBlog.jpg"
                   alt="Productivity Blog"
                   className="blog-img"
                 />
@@ -379,7 +379,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
           <div className="col-12 col-md-6 col-lg-3">
             <div className="text-center pb-3 p-2 text-md-left">
               <img
-                src="src\images&logo\Ecommerce_Logo-removebg-preview.png"
+                src="imagesLogo/Ecommerce_Logo-removebg-preview.png"
                 className="fly-buy-img m-3"
                 alt="Ecommerce logo"
               />
