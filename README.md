@@ -1,12 +1,50 @@
-# React + Vite
+# Ecommerce_Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce React application built with product listing, cart, user pages, and responsive layout.  
+Designed for deployment (e.g. Vercel), including proper handling of assets and routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Demo](#demo)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Project Structure](#project-structure)  
+- [Setup & Running Locally](#setup--running-locally)  
+- [Deployment](#deployment)  
+- [Assets & Images](#assets--images)  
+- [Known Issues / To Do](#known-issues--to-do)  
+- [License](#license)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo
+
+https://ecommerce-web-ali.vercel.app/
+
+---
+
+## Features
+
+- Browse products fetched from a public API  
+- Filter, search, and sort products  
+- Product detail pages  
+- Cart functionality with quantity control  
+- Responsive design for mobile and desktop  
+- Navigation bar, footer, service & offer sections  
+- Clean UI with image assets  
+
+---
+
+## Technologies
+
+- React  
+- React Router  
+- Redux (for cart state)  
+- React Icons  
+- Bootstrap (CSS grid / classes)  
+- Fetch API (for product data)  
+
+---
+
