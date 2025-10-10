@@ -469,7 +469,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   min-height: calc(100vh - 60px);
 }
 .services-bg-container {
-    background-image:url("imagesLogo/service bg.jpg");
+    background-image:url("/imagesLogo/service bg.jpg");
     background-size: cover;
     height: 100%;
 }
@@ -648,7 +648,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 0;
 }
 .contact-container{
-    background-image: url("imagesLogo/contactus img.jpg");
+    background-image: url("/imagesLogo/contactus img.jpg");
     background-size: cover;
     
     background-repeat: no-repeat;
