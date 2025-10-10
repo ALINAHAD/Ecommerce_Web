@@ -8,7 +8,7 @@ import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { usePaginationContext } from '../components/contexts/PaginationContext';
-import Carousel from 'react-bootstrap/Carousel';
+
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 
@@ -131,7 +131,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
     </header>
     
   
-  <img src="src\images&logo\Ecomme img1.jpg" className='first-img'></img>
+  <img src="src/images&logo/Ecomme img1.jpg" className='first-img'></img>
    
    
    <div className='product_wrapper'>
