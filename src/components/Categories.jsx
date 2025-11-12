@@ -8,6 +8,7 @@ function Categories(props) {
     console.log(whatsTheCategory); //what all types of categories
   return (
     <>
+    <div className="catagories_wrapper">
     <div className="category-full-container">
     <div className='category_heading'>Categories</div>
    <button className='category_option'onClick={()=>{setCurrCategory("All Categories")
@@ -21,6 +22,19 @@ function Categories(props) {
             }}>{category}</button> //diplaying the category name in button
         })}
 
+    </div>
+</div>
+    <div className='responsive-category'>
+      
+    <select className='category_select' onChange={(e)=>{
+        setCurrCategory(e.target.value);
+        setPageNum(1)
+    }}>
+        <option value="All Categories">All</option>
+        {whatsTheCategory.map((category)=>{
+            return <option value={category}>{category}</option>
+        })}
+    </select>
     </div>
     </>
   )

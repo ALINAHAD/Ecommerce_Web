@@ -10,10 +10,10 @@ function NavBar() {
 
   return (
     <div className='navbar'>
-      <div className="navbar_contents">
-        <div className="img-container">
+      <div className="nav-container">
+        <div>
           <img src={logo} alt="logo" className='logo' />
-        </div>
+      </div>
 
         <div className="nav_links">
           <Link to="/">Home</Link>

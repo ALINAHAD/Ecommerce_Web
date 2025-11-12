@@ -7,6 +7,7 @@ import basicOps from '../components/Utility/basicOps';
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
+import Footer from '../components/footer';
 import { usePaginationContext } from '../components/contexts/PaginationContext';
 
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -113,7 +114,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
     
 
   
-  <div className="catagories_wrapper">
+  
     <Categories whatsTheCategory={categories} setCurrCategory ={setCurrCategory}></Categories>
     <div className="icons_container">
 
@@ -126,7 +127,7 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
             setPageNum(1);// when a user arrange products in decending order it should satrt from page no 1
         }} style={{color:"rgb(248, 163, 52)"}} fontSize="30px"/>
    
-    </div>
+  
   </div>
     </header>
     
@@ -428,16 +429,10 @@ const {pageSize,pageNum,setPageNum,setPageSize}=usePaginationContext();
             <p className="list1">Help</p>
           </div>
 
-          {/* Footer bottom line */}
-          <div className="col-12 text-center">
-            <hr className="line-footer" />
-            <i className="fa-regular fa-copyright icon"></i>
-            <span className="creator">
-              2025 by Alinahad, Created with Bootstrap
-            </span>
-          </div>
+          <p className="footer-content">© {new Date().getFullYear()} MyKart. All rights reserved.</p>
         </div>
       </div>
+    
     </div>
    </>
   )
