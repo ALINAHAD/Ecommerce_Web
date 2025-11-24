@@ -10,23 +10,33 @@ html, body {
   padding: 0;
   
 }
+#root, body, html {
+  overflow: visible !important;
+}
 
+html, body, #root {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
 
 
 
 .navbar {
-
   background-color: #2c1705;
   color: white;
+  position: sticky;
+  top: 0;      /* Required */
+  width: 100%;
+  z-index: 1000;
   
- width:100vw;
-  z-index: 1000; /* stays above all */
 }
+
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 2.5rem;
+  
     padding-right: 20px;
     padding-left: 20px;
     width:100%;
@@ -71,15 +81,18 @@ html, body {
 }
 .nav_wrapper {
   background-color: rgb(63, 11, 39);
-  height:12em;
+  height: 12em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: sticky;
+  top: 2.5rem;   /* same as navbar height */
+  width: 100%;
+  z-index: 999;
   align-items: center;
   padding-right: 20px;
- 
- 
 }
+
 .search_input{
     height:2.5rem;
     width:90%;
